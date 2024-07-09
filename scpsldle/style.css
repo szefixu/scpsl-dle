@@ -1,0 +1,213 @@
+/* Globalne style */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #e2e8f0;
+}
+
+/* Animowane tło */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#animated-bg {
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+/* Przyciski */
+button, .btn {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.category-btn {
+    background-color: rgba(74, 85, 104, 0.8);
+}
+
+.category-btn:hover, .category-btn.active {
+    background-color: rgba(72, 187, 120, 0.8);
+    border-color: #faf089;
+}
+
+#guess-button {
+    background-color: rgba(72, 187, 120, 0.8);
+}
+
+#guess-button:hover {
+    background-color: rgba(56, 161, 105, 0.8);
+}
+
+/* Pole wprowadzania */
+input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+/* Lista autopodpowiedzi */
+#autocomplete-list {
+    max-height: 210px;
+    overflow-y: auto;
+    z-index: 1000;
+    background-color: rgba(45, 55, 72, 0.9);
+    border: 1px solid rgba(74, 85, 104, 0.5);
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#autocomplete-list li {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#autocomplete-list li:hover {
+    background-color: rgba(74, 85, 104, 0.8);
+}
+
+/* Scrollbar dla webkit browsers */
+#autocomplete-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#autocomplete-list::-webkit-scrollbar-track {
+    background: rgba(45, 55, 72, 0.5);
+}
+
+#autocomplete-list::-webkit-scrollbar-thumb {
+    background-color: rgba(74, 85, 104, 0.8);
+    border-radius: 4px;
+}
+
+#autocomplete-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(113, 128, 150, 0.8);
+}
+
+/* Stylizacja wyników zgadywania */
+#guesses-list > div {
+    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#guesses-list > div:hover {
+    transform: translateX(5px);
+}
+
+#guesses-list .font-bold {
+    min-width: 100px;
+    display: inline-block;
+}
+
+#guesses-list span {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Statystyki */
+.stat-item {
+    background-color: rgba(74, 85, 104, 0.5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #a0aec0;
+}
+
+.stat-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f6e05e;
+}
+
+/* Responsywność */
+@media (max-width: 640px) {
+    #category-buttons {
+        flex-direction: column;
+    }
+
+    .category-btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    #guess-input-container {
+        flex-direction: column;
+    }
+
+    #guess-input-container > * {
+        margin-top: 0.5rem;
+    }
+
+    #stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Efekty specjalne */
+.shadow-glow {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.animate-text {
+    animation: textPulse 0.5s ease-in-out;
+}
+
+@keyframes textPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.highlight {
+    background: linear-gradient(45deg, #f6e05e 0%, #faf089 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* Discord button */
+.btn-discord {
+    background-color: #7289da;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-discord:hover {
+    background-color: #5f73bc;
+}
+
+.btn-discord i {
+    margin-right: 0.5rem;
+}

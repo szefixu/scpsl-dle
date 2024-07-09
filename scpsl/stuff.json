@@ -1,0 +1,184 @@
+{
+    "categories": [
+      {
+        "name": "SCP",
+        "items": [
+          {
+            "name": "SCP-049",
+            "aliases": ["SCP-049", "Doktor", "Plague Doctor"],
+            "hints": ["👨‍⚕️", "💀", "🧟", "🏥", "🦠"]
+          },
+          {
+            "name": "SCP-049-2",
+            "aliases": ["SCP-049-2", "Zombie", "Ofiara Doktora"],
+            "hints": ["🧟", "👥", "🔢", "🧠", "💪"]
+          },
+          {
+            "name": "SCP-079",
+            "aliases": ["SCP-079", "Stary AI", "Old AI", "Komputer"],
+            "hints": ["💻", "🤖", "👁️", "🔌", "📷"]
+          },
+          {
+            "name": "SCP-096",
+            "aliases": ["SCP-096", "Nieśmiały facet", "Shy Guy"],
+            "hints": ["😢", "😡", "🏃‍♂️", "👤", "👁️"]
+          },
+          {
+            "name": "SCP-106",
+            "aliases": ["SCP-106", "Stary człowiek", "Old Man", "Radical Larry"],
+            "hints": ["👴", "🕳️", "🌫️", "☣️", "🏃"]
+          },
+          {
+            "name": "SCP-173",
+            "aliases": ["SCP-173", "Rzeźba", "Sculpture", "Peanut"],
+            "hints": ["🗿", "👀", "💨", "🚽", "🔒"]
+          },
+          {
+            "name": "SCP-939",
+            "aliases": ["SCP-939", "Z głosami wielu", "With Many Voices", "Pies"],
+            "hints": ["🐕", "👂", "🗣️", "👥", "🔪"]
+          }
+        ]
+      },
+      {
+        "name": "BROŃ",
+        "items": [
+          {
+            "name": "COM-15",
+            "aliases": ["COM-15", "Pistolet", "Pistol"],
+            "hints": ["🔫", "👌", "🔫", "🔒", "👮"]
+          },
+          {
+            "name": "COM-17",
+            "aliases": ["COM-17", "Silenced Pistol", "Pistolet z tłumikiem"],
+            "hints": ["🔫", "🤫", "🔇", "🕵️", "🎯"]
+          },
+          {
+            "name": "FSP-9",
+            "aliases": ["FSP-9", "SMG", "Pistolet maszynowy"],
+            "hints": ["🔫", "🔫", "💨", "🏃‍♂️", "👥"]
+          },
+          {
+            "name": "CrossVec",
+            "aliases": ["CrossVec", "Vector", "Wektor"],
+            "hints": ["🔫", "↗️", "💨", "🔄", "🎯"]
+          },
+          {
+            "name": "MTF-E11-SR",
+            "aliases": ["MTF-E11-SR", "Rifle", "Karabin"],
+            "hints": ["🔫", "🎖️", "🔭", "💥", "🏃‍♂️"]
+          },
+          {
+            "name": "Logicer",
+            "aliases": ["Logicer", "LMG", "Karabin maszynowy"],
+            "hints": ["🔫", "🔫", "🔫", "💪", "🤖"]
+          }
+        ]
+      },
+      {
+        "name": "KARTA",
+        "items": [
+          {
+            "name": "Janitor",
+            "aliases": ["Janitor", "Woźny", "Karta woźnego"],
+            "hints": ["🧹", "🔑", "👨‍🔧", "🚽", "🏢"]
+          },
+          {
+            "name": "Scientist",
+            "aliases": ["Scientist", "Naukowiec", "Karta naukowca"],
+            "hints": ["🔬", "🔑", "👨‍🔬", "👩‍🔬", "🧪"]
+          },
+          {
+            "name": "Research Supervisor",
+            "aliases": ["Research Supervisor", "Kierownik badań", "Karta kierownika badań"],
+            "hints": ["📊", "🔑", "👨‍💼", "👩‍💼", "🔬"]
+          },
+          {
+            "name": "Containment Engineer",
+            "aliases": ["Containment Engineer", "Inżynier", "Karta inżyniera"],
+            "hints": ["🔧", "🔑", "👷", "🏗️", "🔒"]
+          },
+          {
+            "name": "Facility Guard",
+            "aliases": ["Facility Guard", "Strażnik", "Karta strażnika"],
+            "hints": ["👮", "🔑", "🔫", "🚨", "🏢"]
+          },
+          {
+            "name": "MTF Private",
+            "aliases": ["MTF Private", "Szeregowy MTF", "Karta szeregowego MTF"],
+            "hints": ["🎖️", "🔑", "👮", "🔫", "🚁"]
+          },
+          {
+            "name": "MTF Sergeant",
+            "aliases": ["MTF Sergeant", "Sierżant MTF", "Karta sierżanta MTF"],
+            "hints": ["🎖️", "🔑", "👮", "🔫", "📡"]
+          },
+          {
+            "name": "MTF Captain",
+            "aliases": ["MTF Captain", "Kapitan MTF", "Karta kapitana MTF"],
+            "hints": ["🎖️", "🔑", "👮", "🔫", "🚀"]
+          },
+          {
+            "name": "Zone Manager",
+            "aliases": ["Zone Manager", "Kierownik strefy", "Karta kierownika strefy"],
+            "hints": ["🏢", "🔑", "👨‍💼", "👩‍💼", "🗺️"]
+          },
+          {
+            "name": "Facility Manager",
+            "aliases": ["Facility Manager", "Kierownik placówki", "Karta kierownika placówki"],
+            "hints": ["🏢", "🔑", "👨‍💼", "👩‍💼", "🌐"]
+          },
+          {
+            "name": "Chaos Insurgency Access Device",
+            "aliases": ["Chaos Insurgency Access Device", "CI Access", "Karta Chaosu"],
+            "hints": ["🔑", "💥", "🕵️", "🔓", "☠️"]
+          },
+          {
+            "name": "O5",
+            "aliases": ["O5", "Karta O5", "Overseers"],
+            "hints": ["🔑", "👑", "🕴️", "🌐", "🔐"]
+          }
+        ]
+      },
+      {
+        "name": "RODZAJ GRACZA",
+        "items": [
+          {
+            "name": "Naukowiec",
+            "aliases": ["Naukowiec", "Scientist", "Researcher"],
+            "hints": ["👨‍🔬", "👩‍🔬", "🔬", "🧪", "📊"]
+          },
+          {
+            "name": "Klasa D",
+            "aliases": ["Klasa D", "Class D", "D-Boy", "D-Class"],
+            "hints": ["👨", "👩", "🟧", "🔒", "🏃"]
+          },
+          {
+            "name": "MTF",
+            "aliases": ["MTF", "Mobile Task Force", "Nine-Tailed Fox"],
+            "hints": ["👮", "🔫", "🚁", "🎖️", "🔵"]
+          },
+          {
+            "name": "Tutorial",
+            "aliases": ["Tutorial", "Samouczek", "Poradnik"],
+            "hints": ["ℹ️", "🎮", "🧑‍🏫", "📚", "🆕"]
+          },
+          {
+            "name": "Spectator",
+            "aliases": ["Spectator", "Widz", "Obserwator"],
+            "hints": ["👻", "👀", "🎥", "💀", "🔍"]
+          },
+          {
+            "name": "Strażnik",
+            "aliases": ["Strażnik", "Guard", "Facility Guard"],
+            "hints": ["👮", "🔫", "🚨", "🏢", "🔒"]
+          },
+          {
+            "name": "Chaos",
+            "aliases": ["Chaos", "Chaos Insurgency", "CI"],
+            "hints": ["🕵️", "💥", "🔫", "☠️", "🟩"]
+          }
+        ]
+      }
+    ]
+  }

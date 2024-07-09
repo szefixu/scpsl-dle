@@ -1,0 +1,108 @@
+{
+    "scp": [
+      {
+        "name": "SCP-096",
+        "subcategories": {
+          "origin": "human",
+          "power": "ultra strength",
+          "trait": "shy"
+        }
+      },
+      {
+        "name": "SCP-173",
+        "subcategories": {
+          "origin": "unknown",
+          "power": "speed",
+          "trait": "statue"
+        }
+      },
+      {
+        "name": "SCP-682",
+        "subcategories": {
+          "origin": "unknown",
+          "power": "regeneration",
+          "trait": "hostile"
+        }
+      }
+    ],
+    "cards": [
+      {
+        "name": "Keycard",
+        "subcategories": {
+          "type": "access",
+          "level": "basic"
+        }
+      },
+      {
+        "name": "O5 Keycard",
+        "subcategories": {
+          "type": "access",
+          "level": "highest"
+        }
+      }
+    ],
+    "player-class": [
+      {
+        "name": "D-Class",
+        "subcategories": {
+          "clearance": "none",
+          "role": "test subject"
+        }
+      },
+      {
+        "name": "Scientist",
+        "subcategories": {
+          "clearance": "medium",
+          "role": "researcher"
+        }
+      }
+    ],
+    "weapon": [
+      {
+        "name": "COM-15",
+        "subcategories": {
+          "type": "pistol",
+          "ammo": "9mm"
+        }
+      },
+      {
+        "name": "Epsilon-11 SR",
+        "subcategories": {
+          "type": "rifle",
+          "ammo": "5.56mm"
+        }
+      }
+    ],
+    "item": [
+      {
+        "name": "Medkit",
+        "subcategories": {
+          "type": "healing",
+          "usage": "single"
+        }
+      },
+      {
+        "name": "Radio",
+        "subcategories": {
+          "type": "communication",
+          "usage": "multiple"
+        }
+      }
+    ],
+    "upgrade": [
+      {
+        "name": "Weapon Mod",
+        "subcategories": {
+          "effect": "damage increase",
+          "slot": "weapon"
+        }
+      },
+      {
+        "name": "Armor Plate",
+        "subcategories": {
+          "effect": "damage reduction",
+          "slot": "armor"
+        }
+      }
+    ]
+  }
