@@ -18,3 +18,11 @@ Posiada:
 V3 : https://imgur.com/a/70sWPPm | Pliki strony w folderze scpsldlev2
 Posiada:
 - Wszystko co w v2 tylko lekko wizuwalnie poprawiona + przycisk zagraj ponownie
+
+V4 : https://imgur.com/a/zu4av7s | Pliki strony w folderze scpsldlev3
+Posiada:
+- Ranking na początku
+- Prosty panel admina
+- System logowania/rejestrowania
+- Obługa zdjęć/video/tekst/głos.
+* Projet był robiony na szybko może posiadać parę błędów
